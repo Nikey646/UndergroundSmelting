@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfCraftData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<CraftData>
+		<Key>ore smelter</Key>
+		<Category>mining</Category>
+		<Tier>2</Tier>
+		<CraftedKey>StandardOreSmelter</CraftedKey>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Key>GoldBar</Key>
+				<Amount>15</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Key>TitaniumBar</Key>
+				<Amount>15</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Key>NickelBar</Key>
+				<Amount>12</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Smelts ore into bars. Can be operated manually or automated using input and output Storage Hoppers. See the handbook for more information. Can be upgraded.</Description>
+		<Hint>T2 item - use the one at your base to start with!</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 3</Research>
+		</ResearchRequirements>
+		<IsOverride>true</IsOverride>
+	</CraftData>
+
+	<CraftData>
+		<Key>basic ore smelter</Key>
+		<Category>mining</Category>
+		<Tier>1</Tier>
+		<CraftedKey>BasicOreSmelter</CraftedKey>
+		<CraftedAmount>1</CraftedAmount>
+		<Costs>
+			<CraftCost>
+				<Key>OrganicRock</Key>
+				<Amount>3</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Key>TinPlate</Key>
+				<Amount>6</Amount>
+			</CraftCost>
+			<CraftCost>
+				<Key>BasicPCB</Key>
+				<Amount>2</Amount>
+			</CraftCost>
+		</Costs>
+		<Description>Smelts ore into bars. Half the speed and efficiency of regular smelter, but an excellent stop-gap. Cannot be upgraded with forced induction modules. See the handbook for more information.</Description>
+		<Hint>Upgrade to a regular Ore Smelter as soon as possible.</Hint>
+		<ResearchRequirements>
+			<Research>mining upgrade 1</Research>
+		</ResearchRequirements>
+		<IsOverride>true</IsOverride>
+	</CraftData>
+	
+</ArrayOfCraftData>
