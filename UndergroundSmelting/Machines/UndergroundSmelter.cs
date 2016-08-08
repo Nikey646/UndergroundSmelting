@@ -34,6 +34,6 @@ namespace UndergroundSmelting.Machines
 			}
 
 			return smelter;
-		}  
+		}
 	}
 }
