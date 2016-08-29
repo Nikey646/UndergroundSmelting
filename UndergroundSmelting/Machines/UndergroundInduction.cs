@@ -68,22 +68,22 @@ namespace UndergroundSmelting.Machines
 				return;
 
 			if (this.mValue == 0)
-				this.SetSmelterDetails(smelter, 25f, 2f, 8f, 192, 1);
+				this.SetSmelterDetails(smelter, 25, 2, 8, 192, 1);
 
 			if (this.mValue == 1)
 				this.SetSmelterDetails(smelter, 25, 3, 16, 320, 1);
 
 			if (this.mValue == 2)
-				this.SetSmelterDetails(smelter, 25f, 4f, 32f, 512f, 1);
+				this.SetSmelterDetails(smelter, 25, 4, 32, 512, 1);
 
 			if (this.mValue == 3)
-				this.SetSmelterDetails(smelter, 25f, 4f, 32f, 512f, 2);
+				this.SetSmelterDetails(smelter, 25, 4, 32, 512, 2);
 
 			if (this.mValue == 4)
-				this.SetSmelterDetails(smelter, 25f, 4f, 32f, 512f, 4);
+				this.SetSmelterDetails(smelter, 25, 4, 32, 512, 4);
 
 			if (this.mValue == 5)
-				this.SetSmelterDetails(smelter, 5f, 1f, 128f, 2048f, 1, true);
+				this.SetSmelterDetails(smelter, 5, 1, 512, 4096, 1, true);
 				
 			if (this.mValue > 6)
 				Debug.LogError("Error, Forced Induction built with Value of " + this.mValue);
@@ -107,5 +107,10 @@ namespace UndergroundSmelting.Machines
 			smelter.SetSmelterSupportsTier4(tier4);
 		}
 
+
+//		public override String GetPopupText()
+//		{
+//			return $"Is Too Deep: {this.mbTooDeep}";
+//		}
 	}
 }
